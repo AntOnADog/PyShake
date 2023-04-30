@@ -1,7 +1,7 @@
 import sys
-import QApplication
+import PyQt6 as pyqt
 
-app = QApplication([])
+app = pyqt.QApplication([])
 
 window =  QWidget()
 window.setWindowTitle("ShapeKey Manager")
